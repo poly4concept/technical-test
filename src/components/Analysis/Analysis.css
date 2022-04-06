@@ -1,0 +1,115 @@
+
+/* analysis */
+.analysis{
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px 0;
+}
+.analysis--side{
+    margin-right: 20px;
+}
+.analysis--left{
+    display: flex;
+    min-width: 60%;
+    /* margin-right: 20px; */
+    justify-content: flex-start;
+}
+/* analysis log */
+.analysis-log{
+    display: flex;
+    flex-direction: column;
+    /* margin-right: 20vw; */
+}
+.analysis-log--header{
+    display: flex;
+    align-items: flex-end;
+}
+.analysis-log--title{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #4A4A4A;
+    align-self: flex-end;
+    margin-right: 8px;
+}
+.analysis-log--percent{
+    background-color: #8BC34A;
+    height: 18px;
+    width: 37px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: -20px;
+    margin-right: 8px;
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -25px;
+    align-self: center;
+}
+.analysis-log--percent_red{
+    background-color: #FF6A67 !important;
+}
+.analysis-log--item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between !important;
+}
+.analysis-log--item--value{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #4A4A4A;
+    margin-right: 10px;
+}
+.analysis-log--item--days{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4A4A4A;
+}
+.analysis-log--item--opacity1{
+    opacity: 0.7;
+}
+.analysis-log--item--opacity2{
+    opacity: 0.5;
+}
+
+/* traffic */
+.traffic{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+}
+.traffic--text{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #4A4A4A;
+}
+.traffic--text_red{
+    color: #FF6A67;
+}
+.traffic--message{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #A0B0B9;
+    margin-top: 6px;
+}
+.traffic--help{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #4A4A4A;
+    margin-top: 6px;
+}
+.traffic--help--links{
+    text-decoration: none;
+}
